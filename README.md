@@ -1,7 +1,7 @@
 
 # 0x539-BCI
 
-A Brain-Computer Interface (BCI) project designed for innovative applications in neural signal processing. This project leverages **ECG electrodes** to capture bioelectric signals and **PyQtGraph** for real-time visualization of serial data. Built with a focus on simplicity and efficiency, it is ideal for exploring BCI applications.
+A Brain-Computer Interface (BCI) project designed for innovative applications in neural signal processing. This project leverages **ECG electrodes** to capture bioelectric signals and **Matplotlib** for real-time visualization of serial data. Built with a focus on simplicity and efficiency, it is ideal for exploring BCI applications.
 
 ---
 
@@ -9,14 +9,7 @@ A Brain-Computer Interface (BCI) project designed for innovative applications in
 - **Real-time Signal Visualization:** Dynamically plot data using PyQtGraph.  
 - **ECG Signal Processing:** Capture and analyze bioelectric signals with ease.  
 - **Arduino Integration:** Seamless communication with microcontrollers using the Arduino IDE.  
-- **Python Backend:** A beginner-friendly, lightweight Python backend suitable for BCI applications.
-
----
-
-## 📂 Repository Structure
-- **`src/`**: Core Python scripts for data acquisition and visualization.  
-- **`arduino/`**: Arduino code for capturing signals from ECG electrodes.  
-- **`images/`**: Visuals and screenshots to help understand the project better.  
+- **Python Script:** A beginner-friendly, lightweight Python script suitable for signal processing.
 
 ---
 
@@ -41,7 +34,7 @@ A Brain-Computer Interface (BCI) project designed for innovative applications in
 1. Connect your hardware and ensure all electrodes are in place.  
 2. Run the Python visualization script:
    ```bash
-   python src/main.py
+   python serial_interface/signal_processor.py
    ```
 3. Observe the real-time plotting of the captured signals.
 
@@ -49,30 +42,17 @@ A Brain-Computer Interface (BCI) project designed for innovative applications in
 
 ## 🖼️ Visuals
 
-### Real-Time Signal Visualization
-![Signal Plot](images/signal-plot.png)
-
 ### Hardware Setup
-![Hardware](images/hardware-setup.png)
+![Hardware](circuits.jpg)
 
-### System Overview
-![System Diagram](images/system-diagram.png)
+### Bode Plot
+![System Diagram](output.png)
 
 ---
 
 ## 💡 Future Enhancements
 - Advanced signal filtering for noise reduction.  
 - Feature extraction for EEG/ECG pattern analysis.  
-- Machine learning integration for BCI applications.
-
----
-
-## 🧑‍💻 Contributors
-- **[Pratik Sharma](https://github.com/pratiksharma0110)** - Project Lead  
-
----
-
-## 📄 License
-This project is licensed under the MIT License. See `LICENSE` for details.
+- Machine learning integration for BCI applications.z
 
 ---
