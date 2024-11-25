@@ -53,6 +53,6 @@ A Brain-Computer Interface (BCI) project designed for innovative applications in
 ## 💡 Future Enhancements
 - Advanced signal filtering for noise reduction.  
 - Feature extraction for EEG/ECG pattern analysis.  
-- Machine learning integration for BCI applications.z
+- Machine learning integration for BCI applications.
 
 ---
